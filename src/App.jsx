@@ -27,10 +27,6 @@ function App() {
         <Route path="/rooms" element={<RoomList />} />
         <Route path="/rooms/new" element={<RoomForm />} />
         <Route path="/rooms/:id/edit" element={<RoomForm />} />
-
-        
-
-      
         </Route>
       </Routes>
   )
